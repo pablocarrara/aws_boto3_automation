@@ -23,9 +23,9 @@ while True:
     option = int(input('Opcion: '))
 
     if option == 1:
-        aws_upload.upload_file(s3, bucket_name, file_name)
+        aws_s3_upload.upload_file(s3, bucket_name, file_name)
     elif option == 2:
-        aws_delete.delete_file(s3, bucket_name, file_name)
+        aws_s3_delete.delete_file(s3, bucket_name, file_name)
     elif option == 3:
         break
     else:
