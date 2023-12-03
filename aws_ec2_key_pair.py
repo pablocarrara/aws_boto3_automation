@@ -1,6 +1,7 @@
 import boto3
 
 
+
 #Command to use to access via ssh my ec2 instance after executing this script
 #ssh -i path/to/id_rsa.pem ec2-user@your-instance-ip
 #-i parameter indicates where the private key is saved
